@@ -1,0 +1,11 @@
+name: MalTimers
+version: '${project.version}'
+main: lol.maltest.timers.Timers
+api-version: 1.18
+depend: ["PlaceholderAPI"]
+authors: [ maltest ]
+description: Timers using placeholders and UNIX Timestamps.
+commands:
+  timers:
+    description: The main MalTimers command
+    permission: mal.timers
